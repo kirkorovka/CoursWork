@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InfTextBox.Text" xml:space="preserve">
+    <value>Алгоритм Флойда — Уоршелла — алгоритм для нахождения кратчайших расстояний между всеми вершинами взвешенного графа без циклов с отрицательными весами с использованием метода динамического программирования.
+В основе алгоритма лежат два свойства кратчайшего пути графа. Первое:
+
+Имеется кратчайший путь p1k=(v1,v2,… ,vk) от вершины v1 до вершины vk, а также его подпуть p'(vi,vi+1,… ,vj), при этом действует 1 &lt;= i &lt;= j &lt;= k.
+
+Если p — кратчайший путь от v1 до vk, то p' также является кратчайшим путем от вершины vi до vj
+
+Это можно легко доказать, так как стоимость пути p складывается из стоимости пути p' и стоимости остальных его частей. Так вот представив что есть более короткий путь p', мы уменьшим эту сумму, что приведет к противоречию с утверждением, что эта сумма и так уже была минимальной.
+
+Второе свойство является основой алгоритма. Мы рассматриваем граф G с пронумерованными от 1 до n вершинами {v1,v2,… ,vn} и путь pij от vi до vj, проходящий через определенное множество разрешенных вершин, ограниченное индексом k.
+
+То есть если k=0, то мы рассматриваем прямые соединения вершин друг с другом, так как множество разрешенных промежуточных вершин рано нулю. Если k=1 — мы рассматриваем пути, проходящие через вершину v1, при k=2 — через вершины {v1, v2}, при k=3 — {v1, v3, v3} и так далее.
+
+Например у нас есть такой граф (слева) и k=1, то есть в качестве промужуточных узлов разрешен только узел «1». В этом графе при k=1 нет пути p43, но есть при k=2, тогда можно добраться из «4» в «3» через «2» или через «1» и «2».
+
+Рассмотрим кратчайший путь pij с разрешенными промужуточными вершинами {1..k-1} стоимостью dij. Теперь расширим множество на k- тый элемент, так что множество разрешенных вершин станет {1..k}. При таком расширении возможно 2 исхода:
+
+Случай 1. Элемент k не входит в кратчайший путь pij, то есть от добавления дополнительной вершины мы ничего не выиграли и ничего не изменили, а значит стоимость кратчайшего пути dkij не изменился, соответственно
+
+dkij = dk-1ij — просто перенимаем значение до увеличения k.
+
+Случай 2. Элемент k входит в кратчайший путь pij, то есть после добавления новой вершины в можество разрешенных, кратчайший путь изменился и проходит теперь через вершину vk. Какую стоимость получит новый путь?
+
+Новый кратчайший путь разбит вершиной vk на pik и pkj, используем первое свойство, согласно ему, pik и pkj также кратчайшие пути от vi до vk и от vk до vj соответственно. Значит
+
+dkij = dkik + dkkj
+
+А так как в этих путях k либо конечный, либо начальный узел, то он не входит в множество промежуточных, соответственно его из него можно удалить:
+dkij = dk-1ik + dk-1kj
+Алгоритм
+
+Посмотрим на значение dkij в обоих случаях — верно! оно в обоих случаях складывается из значений d для k-1, а значит имея начальные (k=0) значения для d, мы сможем расчитать d для всех последующих значений k. А значения d для k=0 мы знаем, это вес/стоимость рёбер графа, то есть соединений без промужуточных узлов.
+
+При k=n (n — количество вершин) мы получим оптимальные значения d для всех пар вершин.
+
+При увеличении с k-1 до k, какое значение мы сохраним для dkik? Минимумом значений случая 1 и 2, то есть смотрим дешевле ли старый путь или путь с добавлением дополнительной вершины.
+</value>
+  </data>
+</root>
